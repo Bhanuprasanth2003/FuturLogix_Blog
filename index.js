@@ -11,9 +11,9 @@ const aboutContent = "At Futurologix, we are passionate about exploring the ever
 const contactContent = "We value your feedback, questions, and ideas. Your thoughts matter to us, and we're eager to hear from you. Whether you have a tech-related query, want to collaborate, or simply wish to drop a friendly hello, our virtual doors are always open. Feel free to reach out via the provided contact information, and our team will be delighted to assist you. At Futurologix, we believe in the power of connectivity, and we're excited to connect with you!"
 
 
-app.set("views", __dirname + "/views");
+
 app.set("view engine", "ejs");
-app.use(express.static(__dirname + "public"));
+
 
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
